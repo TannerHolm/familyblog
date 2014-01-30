@@ -14,7 +14,7 @@
 	
 <div class="container link-container cl-effect-6">
 	<div class="col-md-4 link"><a href="#"><p>Tasks</p></a></div>
-	<div class="col-md-4 link"><a href="/blog"><p>Family News</p></a></div>
+	<div class="col-md-4 link"><a href="/posts"><p>Family News</p></a></div>
 	<div class="col-md-4 link"><a href="#"><p>Events</p></a></div>
 </div>
 </div>
