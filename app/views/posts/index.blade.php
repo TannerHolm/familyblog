@@ -1,20 +1,16 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
+@extends('layouts.default')
+
+@section('content')
+ 
 @foreach ($posts as $post)
-    <div>
-    <ul>
-    	<li><a href="/posts/{{ $post->id }}">{{ $post->title }}</a></li>
-    </ul>
-    
 
-    </div>
 
+                <!-- blog entry -->
+                <h1><a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
+                </h1>
+                <p class="lead">by <a href="index.php">Start Bootstrap</a>
+                </p>
+                    <i class="fa fa-calendar fa-2x"></i> {{ $post -> created_at}}</p>
+                <hr>
 @endforeach
-	
-</body>
-</html>
+    @stop

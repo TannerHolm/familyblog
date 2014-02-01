@@ -12,7 +12,8 @@ class PostsController extends BaseController {
 		$posts = Post::all();
 		$data = array('posts' => $posts);
 
-        return View::make('posts.index', $data);
+
+		return View::make('posts.index', compact('posts'));
 	}
 
 	/**
@@ -22,7 +23,7 @@ class PostsController extends BaseController {
 	 */
 	public function create()
 	{
-        return View::make('posts.create');
+		return View::make('posts.create');
 	}
 
 	/**
@@ -46,9 +47,9 @@ class PostsController extends BaseController {
 
 		$posts = Post::find($id);
 
-		echo $posts->content;
+		$data = array('posts' => $posts);	
 
-        return View::make('posts.show');
+		return View::make('posts.show', $data);
 
 	}
 
@@ -60,7 +61,7 @@ class PostsController extends BaseController {
 	 */
 	public function edit($id)
 	{
-        return View::make('posts.edit');
+		return View::make('posts.edit');
 	}
 
 	/**
