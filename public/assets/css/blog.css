@@ -1,6 +1,6 @@
 body {
-
-		/*background: url(/assets/img/star.png) center center fixed;*/
+	background: rgba(0, 0, 0, 0.4);
+	height: 100%;
 	margin-top: 100px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
 }
 
@@ -10,9 +10,34 @@ footer {
 
 
 .blog-container{
-	padding-left: 20%;
-	width: 70%;
+	padding-left: 10%;
+	width: 90%;
 	/*background: url(/assets/img/star.png) center center fixed;*/
 
 }
 
+html{
+
+			background: url(/assets/img/hannah.jpg) no-repeat center center fixed;
+		  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+	}
+
+.cover-all{
+color: white;
+}
+
+.cover-all a{
+	color: white;
+}
+
+.about-us{
+	width: 300px;
+	height: 200px;
+	background: url(https://scontent-a-dfw.xx.fbcdn.net/hphotos-ash2/t1/16544_10151536149388461_2110248792_n.jpg?lvh=1);
+	background-size: cover;
+	border: 2px solid black;
+}
