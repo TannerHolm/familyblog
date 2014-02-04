@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/assets/css/blog.css">
 
 </head>
-    
+
 
 <body>
 <div class="cover-all">
@@ -31,15 +31,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/posts">HanTan</a>
+                                <a class="navbar-brand" href="/posts">HanTan</a>
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#about">About</a>
+                    <li><a href="/about">About</a>
                     </li>
-                    <li><a href="#contact">Contact</a>
+                    <li><a href="/contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -49,18 +50,11 @@
     </nav>
 <div class="blog-container">
         <div class="row">
-            <div class="col-lg-8">
+          
                 @yield('content')
-            </div>
 <!-- <hr> -->
 
-             <div class="col-lg-4">
-                <h3>About Hannah and Tanner</h3>
-                <hr>
-                <div class="about-us"></div>
-                <div class="about-us-text"><p>We love each other. Our hometown is Kaysville, Utah. We live in Richmond, Utah, and we have a wonderful dog named Watson and a baby on the way.</p></div>
-             </div> 
-
+         
 
      <!--        <div class="col-lg-2">
                 <div class="well">
@@ -114,12 +108,16 @@
   <!-- pager -->
             <div class="col-md-8">
                     
-                <ul class="pager">
-                    <li class="previous"><a href="#">&larr; Older</a>
+        
+                 <div class="pager">
+                 {{ $posts->links() }}
+                 </div>
+
+                 <!--    <li class="previous"><a href="#">&larr; Older</a>
                     </li>
                     <li class="next"><a href="#">Newer &rarr;</a>
-                    </li>
-                </ul>
+                    </li> -->
+   
             </div>
 
 

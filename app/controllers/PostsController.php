@@ -13,7 +13,8 @@ class PostsController extends BaseController {
 		$data = array('posts' => $posts);
 
 
-		return View::make('posts.index', compact('posts'));
+		return View::make('posts.index', [
+			'posts' => Post::paginate(1) ]);
 	}
 
 	/**

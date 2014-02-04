@@ -11,8 +11,8 @@
 <body>
 
 
-<video autoplay loop poster="tree.jpg" id="bgvid">
-<source src="http://youtu.be/JYM3sUCQoqw" type="video/webm">
+<video autoplay loop poster="/assets/img/hannah.jpg" id="bgvid">
+<source src="/assets/vid/hannah.webm" type="video/webm">
 </video>
 <script type="text/javascript">
 	

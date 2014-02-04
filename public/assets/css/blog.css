@@ -41,3 +41,13 @@ color: white;
 	background-size: cover;
 	border: 2px solid black;
 }
+
+.about-us-page{
+
+			background: url(https://scontent-b.xx.fbcdn.net/hphotos-prn2/t1/1468567_10151856828573461_1123077409_n.jpg) no-repeat center center fixed;
+		  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+	}

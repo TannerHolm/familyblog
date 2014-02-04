@@ -19,3 +19,13 @@ Route::get('/', function()
 
 Route::resource('posts', 'PostsController');
 
+Route::get('/about', function()
+{
+	return View::make('about');
+});
+
+
+Route::get('/contact', function()
+{
+	return View::make('contact');
+});
