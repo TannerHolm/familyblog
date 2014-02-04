@@ -5,41 +5,17 @@ html{
 }
 
 body{
-	background: url(/assets/img/tree.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  z-index: -1;
+background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
   height: 100%;
-
 }
 
-.whole-container{
-		height: 100%;
-		background: rgba(99, 93, 96, 0.5);
-}
-.home{}
 
-.home-header{
-height: 45px;
-width: 100%;
-font-family: 'Alegreya Sans SC', sans-serif;
-font-size: 50px;
-text-align: center;
-color: #635D60;
-display: block;
-
-}
-
-.main-display{
-	width: 300px;
-	display: block;
-	margin: 20px;
-
-}
 .link-container{
 	margin-top: 50px;
+	/*background: rgba(0, 0, 0, 0.5);*/
+	height: 100%;
+	width: 100%;
 	
 
 }
@@ -60,33 +36,11 @@ display: block;
 }
 	
 
-.circles{
-	text-decoration: none !important;
-	text-align: center;
-	border-radius: 200px;
-	margin-top: 100px;
-	font-size: 25px;
-	background: #fcfff4; /* Old browsers */
-background: -moz-linear-gradient(top,  #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(40%,#dfe5d7), color-stop(100%,#b3bead)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
-font-family: 'Alegreya Sans SC', sans-serif;
 
--webkit-box-shadow: -10px 40px 81px 29px rgba(0,0,0,0.75);
--moz-box-shadow: -10px 40px 81px 29px rgba(0,0,0,0.75);
-box-shadow: -10px 40px 81px 29px rgba(0,0,0,0.75);
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(/assets/img/hannah.jpg) no-repeat;
+background-size: cover;
 }
-
-
-
-
-.error {color: red; font-size: 1em; font-style: italic;	}
-li img { margin-right: 1em;}
-.completed { background: #25FF0E; }
-.task-update-form {position: absolute; top: 1em; right: 1em; }
-
-
