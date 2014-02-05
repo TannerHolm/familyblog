@@ -1,9 +1,11 @@
 body {
 	background: rgba(0, 0, 0, 0.4);
 	height: 100%;
-	margin-top: 100px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
+	padding-top: 100px;
+	padding-bottom: 100%; 
 }
 
+body
 footer {
 	margin: 50px 0;
 }
@@ -11,7 +13,8 @@ footer {
 
 .blog-container{
 	padding-left: 10%;
-	width: 90%;
+	width: 100%;
+	border-right: 2px solid white;
 	/*background: url(/assets/img/star.png) center center fixed;*/
 
 }
@@ -26,21 +29,19 @@ html{
 
 	}
 
-.cover-all{
-color: white;
-}
-
-.cover-all a{
-	color: white;
-}
 
 .about-us{
+	/*margin: auto;*/
+	float: right;
 	width: 300px;
 	height: 200px;
 	background: url(https://scontent-a-dfw.xx.fbcdn.net/hphotos-ash2/t1/16544_10151536149388461_2110248792_n.jpg?lvh=1);
 	background-size: cover;
 	border: 2px solid black;
+	/*margin-right: 5px;*/
 }
+
+
 
 .about-us-page{
 
@@ -51,3 +52,10 @@ color: white;
   background-size: cover;
 
 	}
+
+
+.text-color, .text-color a{
+	color: white;
+	margin-right: 0;
+}
+
