@@ -9,12 +9,13 @@ class PostsController extends BaseController {
 	 */
 	public function index()
 	{
-		$posts = Post::all();
+
+	    $posts = Post::orderBy('created_at', 'desc')->paginate(3);
 		$data = array('posts' => $posts);
 
 
-		return View::make('posts.index', [
-			'posts' => Post::paginate(1) ]);
+
+		return View::make('posts.index', $data);
 	}
 
 	/**
@@ -46,9 +47,12 @@ class PostsController extends BaseController {
 	public function show($id)
 	{
 
-		$posts = Post::find($id);
+		$posts = Post::find($id)->orderBy('created_at', 'desc')->paginate(1);
 
-		$data = array('posts' => $posts);	
+		$data = array(
+			'posts' => $posts,
+
+			);	
 
 		return View::make('posts.show', $data);
 
