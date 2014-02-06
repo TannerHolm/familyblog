@@ -10,7 +10,6 @@
                 </h1>
                 </p><i class="fa fa-calendar fa-2x"></i> {{ $post->created_at }}</p>
                 <hr>
-                <hr>
                 </p><i class="fa fa-calendar fa-2x"></i> {{ $post -> created_at}}</p>
           
       
