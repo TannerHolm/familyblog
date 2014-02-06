@@ -1,7 +1,7 @@
 body {
 	background: rgba(0, 0, 0, 0.4);
 	height: 100%;
-	padding-top: 100px;
+	
 	padding-bottom: 100%; 
 }
 
@@ -12,7 +12,8 @@ footer {
 
 
 .blog-container{
-	padding-left: 10%;
+	padding-top: 100px;
+	padding-left: 0%;
 	width: 100%;
 	border-right: 2px solid white;
 	/*background: url(/assets/img/star.png) center center fixed;*/
@@ -31,16 +32,18 @@ html{
 
 
 .about-us{
-	/*margin: auto;*/
-	float: right;
+	margin: auto;
 	width: 300px;
 	height: 200px;
 	background: url(https://scontent-a-dfw.xx.fbcdn.net/hphotos-ash2/t1/16544_10151536149388461_2110248792_n.jpg?lvh=1);
 	background-size: cover;
 	border: 2px solid black;
-	/*margin-right: 5px;*/
 }
 
+.about-us-text{
+	clear: both;
+	text-align: center;
+}
 
 
 .about-us-page{
@@ -59,3 +62,6 @@ html{
 	margin-right: 0;
 }
 
+p{
+	font-size: 15px;
+}

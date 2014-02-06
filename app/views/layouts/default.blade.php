@@ -63,7 +63,7 @@
 	<footer>
 		<div class="row">
 			<div class="col-lg-12">
-				<p>Copyright &copy; Company 2014</p>
+				<p style="color:white;">Copyright &copy; Company 2014</p>
 			</div>
 		</div>
 	</footer>
