@@ -13,7 +13,7 @@ footer {
 
 .blog-container{
 	padding-top: 100px;
-	padding-left: 0%;
+	padding-left: 2%;
 	width: 100%;
 	border-right: 2px solid white;
 	/*background: url(/assets/img/star.png) center center fixed;*/
@@ -63,5 +63,24 @@ html{
 }
 
 p{
-	font-size: 15px;
+	font-size: 20px;
 }
+
+@media all and (max-width: 400px) {
+
+
+html{
+
+			background: url(/assets/img/tweed.png);
+	}
+	html:hover{
+		text-decoration: none;
+		color: white;
+	}
+
+.link-container{
+	width: 200px;
+}
+
+}	
+

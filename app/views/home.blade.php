@@ -9,16 +9,15 @@
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+	<div class="link-container">
+		
+	<div class="container cl-effect-6"><a href="/posts"><p>HanTan</p></a></div>
+	</div>
 
 
-<video autoplay loop poster="/assets/img/hannah.jpg" id="bgvid">
-<source src="/assets/vid/hannah.webm" type="video/webm">
-</video>
-<script type="text/javascript">
-	
-</script>
+
 </body>
 </html>
-<div class="container link-container cl-effect-6">
+<!-- <div class="container link-container cl-effect-6">
 	<div class="col-md-4 link"><a href="/posts"><p>HanTan</p></a></div>
-</div>
+</div> -->

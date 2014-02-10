@@ -1,6 +1,6 @@
 <?php
 
-class PostsController extends BaseController {
+class CommentsController extends BaseController {
 
 	/**
 	 * Display a listing of the resource.
@@ -9,13 +9,10 @@ class PostsController extends BaseController {
 	 */
 	public function index()
 	{
+		    $comments = Comment::orderBy('created_at', 'DESC')->paginate(10);
 
-	    $posts = Post::orderBy('created_at', 'desc')->paginate(3);
-		$data = array('posts' => $posts);
-
-
-
-		return View::make('posts.index', $data);
+        // Show the page
+        return View::make('comments.index', compact('comments'));
 	}
 
 	/**
@@ -25,7 +22,7 @@ class PostsController extends BaseController {
 	 */
 	public function create()
 	{
-		return View::make('posts.create');
+        return View::make('comments.create');
 	}
 
 	/**
@@ -36,8 +33,7 @@ class PostsController extends BaseController {
 	public function store()
 	{
 
-			
-			}
+	}
 
 	/**
 	 * Display the specified resource.
@@ -47,15 +43,7 @@ class PostsController extends BaseController {
 	 */
 	public function show($id)
 	{
-		$post_id = Post::find($id);
-		$posts = Post::find($id)->orderBy('created_at', 'desc')->paginate(1);
-		$data = array(
-			'posts' => $posts,
-
-			);	
-
-		return View::make('posts.show', $data)->with('post_id', $post_id);
-
+        return View::make('comments.create')->with('post_id', $post_id);
 	}
 
 	/**
@@ -66,7 +54,7 @@ class PostsController extends BaseController {
 	 */
 	public function edit($id)
 	{
-		return View::make('posts.edit');
+        return View::make('comments.edit');
 	}
 
 	/**

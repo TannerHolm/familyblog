@@ -8,9 +8,8 @@
                 <!-- blog entry -->
                 <h1><a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
                 </h1>
-                </p><i class="fa fa-calendar fa-2x"></i> {{ $post->created_at }}</p>
                 <hr>
-                </p><i class="fa fa-calendar fa-2x"></i> {{ $post -> created_at}}</p>
+                </p><i class="fa fa-calendar fa-2x"></i> {{ $post->created_at }}</p>
           
       
  </div>
@@ -39,7 +38,6 @@
 @section('sidebar')
 <div class="text-color">
   <h2 style="text-align: center;">About Hannah and Tanner</h2>
-  <hr>
   <div class="about-us"></div>
   <div class="about-us-text"><p>We love each other. Our hometown is Kaysville, Utah. We live in Richmond, Utah, and we have a wonderful dog named Watson and a baby on the way.</p></div>
  </div>

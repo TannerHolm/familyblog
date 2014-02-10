@@ -7,10 +7,10 @@ class Post extends Eloquent {
 		'author' => 'required',
 		'body' => 'required'
 	);
-   // public function comments()
-   //  {
-   //      return $this->hasMany('Comment');
-   //  }
+   public function comments()
+    {
+        return $this->hasMany('Comment');
+    }
 
 
 

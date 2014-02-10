@@ -19,6 +19,9 @@ Route::get('/', function()
 
 Route::resource('posts', 'PostsController');
 
+
+Route::resource('comments', 'CommentsController');
+
 Route::get('/about', function()
 {
 	return View::make('about');
