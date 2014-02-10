@@ -12,6 +12,8 @@
 	<div class="link-container">
 		
 	<div class="container cl-effect-6"><a href="/posts"><p>HanTan</p></a></div>
+	<!-- <div class=" cl-effect-9"><a href="/posts"><p style="font-size:50px;">Blog</p></a></div> -->
+	<!-- <div class=" cl-effect-9"><a href="/posts"><p style="font-size:50px;">Books</p></a></div> -->
 	</div>
 
 

@@ -1,11 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Carrois+Gothic);
 html{
 
-	background: url(/assets/img/percy1.jpg) no-repeat center center fixed;
-		  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url(/assets/img/grey.png);
 }
 
 .link-container{
@@ -17,9 +13,10 @@ font-family: 'Carrois Gothic', sans-serif;
 }
 
 
-a,p:hover{
+li,a,p:hover{
 	color: white;
 	text-decoration: underline;
+
 }
 
 p{
@@ -29,20 +26,12 @@ p{
 
 
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 600px) {
 
-
-html{
-
-			background: url(/assets/img/tweed.png);
-	}
 	p{
 		font-size: 50px;
 	}
-	html:hover{
-		text-decoration: none;
-		color: white;
-	}
+
 
 .link-container{
 	width: 200px;
