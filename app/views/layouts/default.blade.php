@@ -37,6 +37,8 @@
 			<!-- /.container -->
 		</nav>
 		<div class="hero"></div>
+			
+		<div class="container">
 		<div class="blog-container">
 			<div class="row">
 				<div class="col-lg-8">

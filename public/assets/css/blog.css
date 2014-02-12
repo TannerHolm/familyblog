@@ -63,13 +63,6 @@ p{
 }
 
 
-/*.hero {
-	width: 100%;
-	height: 300px;
-	display: block;
-	background: #000;
-}*/
-
 
 
 
@@ -91,3 +84,21 @@ p{
 
 }	
 
+
+
+@media all and (min-width: 1300px) {
+
+.hero {
+	width: 100%;
+	height: 300px;
+	display: block;
+	background: url(https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-frc3/t1/317711_10151337289108461_1336286324_n.jpg) no-repeat center center fixed;
+			  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+}	
